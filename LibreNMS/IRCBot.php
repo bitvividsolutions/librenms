@@ -55,7 +55,7 @@ class IRCBot
 
     private $pass = '';
 
-    private $nick = 'LibreNMS';
+    private $nick = 'NMS';
 
     private $tempnick = null;
 

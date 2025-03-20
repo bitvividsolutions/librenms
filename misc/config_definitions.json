@@ -1958,7 +1958,7 @@
             }
         },
         "email_user": {
-            "default": "LibreNMS",
+            "default": "NMS",
             "group": "alerting",
             "section": "email",
             "order": 1,
@@ -5593,7 +5593,7 @@
             "type": "text"
         },
         "project_id": {
-            "default": "librenms",
+            "default": "xcnms",
             "type": "text"
         },
         "project_issues": {
@@ -5601,7 +5601,7 @@
             "type": "text"
         },
         "project_name": {
-            "default": "LibreNMS",
+            "default": "NMS",
             "type": "text"
         },
         "prometheus.enable": {

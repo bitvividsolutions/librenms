@@ -72,7 +72,7 @@ class MenuComposer
         //TODO: should be handled via CSS Themes
         $vars['navbar'] = in_array($site_style, ['mono']) ? 'navbar-inverse' : '';
 
-        $vars['project_name'] = Config::get('project_name', 'LibreNMS');
+        $vars['project_name'] = Config::get('project_name', 'NMS');
         $vars['title_image'] = Config::get('title_image', "images/librenms_logo_$site_style.svg");
 
         //Dashboards
